@@ -1,0 +1,57 @@
+/*
+_______________________________
+       NAVBAR STYLES
+_______________________________
+*/
+
+a:hover {
+  color: #000;
+  font-size: 15px;
+}
+
+/*
+_______________________________
+       INTRO SHOWCASE
+_______________________________
+*/
+
+/* IMAGE */
+
+.jumbotron {
+ background-image: url("../img/Web.jpg");
+ height: 100vh;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 0px;
+ margin: 0px;
+}
+
+/* SHOWCASE TEXT */
+
+.showcase-text {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 45vh;
+}
+
+/* OVERLAY */
+
+.jumbotron .overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* GALLERY */
+
+.thumbnail img {
+  width: 100%;
+}
+
+.col-md-4 {
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+:root {
+  margin: 0 !important;
+}
+
+body {
+  background-image: url('../img/Web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.card {
+  opacity: .9;
+}
